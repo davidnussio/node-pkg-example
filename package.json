@@ -1,0 +1,16 @@
+{
+  "name": "exe-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "pkg src/app.js --targets win --out-path build"
+  },
+  "keywords": [],
+  "author": "David Nussio",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "pkg": "^5.8.1"
+  }
+}
